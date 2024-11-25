@@ -1,0 +1,19 @@
+uuid: cee74023-e177-4087-b071-d05455994398
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.provus_slideshow_item
+    - field.storage.block_content.field_provus_titles
+id: block_content.provus_slideshow_item.field_provus_titles
+field_name: field_provus_titles
+entity_type: block_content
+bundle: provus_slideshow_item
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
