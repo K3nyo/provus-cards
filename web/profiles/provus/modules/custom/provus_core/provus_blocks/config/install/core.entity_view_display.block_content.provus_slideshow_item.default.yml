@@ -1,3 +1,4 @@
+uuid: b837eca5-3429-43f8-86db-e46663a509c4
 langcode: en
 status: true
 dependencies:
@@ -6,12 +7,14 @@ dependencies:
     - field.field.block_content.provus_slideshow_item.field_provus_body
     - field.field.block_content.provus_slideshow_item.field_provus_button_text
     - field.field.block_content.provus_slideshow_item.field_provus_media
-    - field.field.block_content.provus_slideshow_item.field_provus_title
+    - field.field.block_content.provus_slideshow_item.field_provus_titles
     - field.field.block_content.provus_slideshow_item.field_provus_url_slide_show_item
   module:
     - link
     - media
     - text
+_core:
+  default_config_hash: kBBkUSRWgWgt_sWu6QObx4DB0kUe4O5oXL8tLiG7MTI
 id: block_content.provus_slideshow_item.default
 targetEntityType: block_content
 bundle: provus_slideshow_item
@@ -30,7 +33,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_provus_media:
     type: media_thumbnail
@@ -43,7 +46,7 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_provus_title:
+  field_provus_titles:
     type: string
     label: hidden
     settings:
@@ -61,7 +64,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
 hidden:
   search_api_excerpt: true
